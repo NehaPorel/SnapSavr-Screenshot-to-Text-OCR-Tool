@@ -1,0 +1,1 @@
+# SnapSavr-Screenshot-to-Text-OCR-Tool
