@@ -44,8 +44,10 @@ export default function Dropzone() {
         <div className="mt-6 w-full max-w-xl">
           <h2 className="text-lg font-semibold mb-2">Extracted Text:</h2>
           <textarea
-            className="w-full h-40 p-2 border border-gray-300 rounded-md"
+            className="w-full  p-2 border border-gray-300 rounded-md"
             value={text}
+            cols={30}
+            rows={20}
             readOnly
           />
           <button
