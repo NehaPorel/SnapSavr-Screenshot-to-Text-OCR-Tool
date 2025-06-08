@@ -7,10 +7,14 @@
 // })
 
 import { defineConfig } from "vite";
+import react from '@vitejs/plugin-react'
 import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
-  plugins: [tailwindcss()],
+  plugins: [react(), tailwindcss()],
+  base: './', // 👈 Important for relative paths
   server: {
     port: 3001, // change this to your desired port
   },
 });
+
+
